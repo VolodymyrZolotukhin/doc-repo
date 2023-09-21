@@ -14,5 +14,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.PAT }}  # Personal Access Token (with repo scope) for the Docusaurus Repo
-          repository: yourusername/docusaurusrepo
+          repository: VolodymyrZolotukhin/docusaurus-test
           event-type: update-docusaurus
