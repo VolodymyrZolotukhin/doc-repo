@@ -3,7 +3,7 @@ name: Trigger Docusaurus Update
 on:
   push:
     branches:
-      - main  # Adjust this to the branch where new docs are added
+      - master
 
 jobs:
   trigger:
